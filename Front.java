@@ -6,7 +6,7 @@ public class Front {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		JogoDaForca jdf = new JogoDaForca();
-		Palavra[] palavras = new Palavra[2];
+		Palavra[] palavras = new Palavra[10];
 		for(int c = 0; c < palavras.length ;c++) {
 			Palavra p = new Palavra();
 			System.out.printf("Insira a sua %dª dica: \n", c+1);
